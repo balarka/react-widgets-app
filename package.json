@@ -1,0 +1,53 @@
+{
+  "name": "stock-widget-react-app",
+  "version": "0.1.0",
+  "description": "App composing of UI widgets built using React, depicting Stock value charts of a ticker symbol.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "eslint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balarka/react-webpack-express-server.git"
+  },
+  "keywords": [
+    "React",
+    "webpack",
+    "express",
+    "node",
+    "webpack",
+    "hot",
+    "reload"
+  ],
+  "author": "Balarka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/balarka/react-webpack-express-server/issues"
+  },
+  "homepage": "https://github.com/balarka/react-webpack-express-server#readme",
+  "dependencies": {
+    "react": "15.4.2",
+    "react-dom": "15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.14.0",
+    "eslint-plugin-react": "^6.9.0",
+    "express": "^4.14.0",
+    "html-webpack-plugin": "^2.26.0",
+    "node-fetch": "^1.6.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-middleware": "^1.9.0",
+    "webpack-hot-middleware": "^2.15.0"
+  }
+}
